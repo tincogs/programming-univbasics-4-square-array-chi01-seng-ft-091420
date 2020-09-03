@@ -3,7 +3,7 @@ def square_array(array)
   squares = []
   array.length.times { |index|
     squares.push(array[index] ** 2)}
-  puts squares
+  squares
 end
 square_array(numbers)
 new_numbers = [9,10,16,25]
